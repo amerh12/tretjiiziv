@@ -1,0 +1,178 @@
+    @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+    * {
+        font-family: 'Karla', sans-serif;
+        background-color: #DCDCDC;
+    }
+
+    #stanica {}
+
+    #bjeli {
+        width: 85%;
+        background-color: #ffffff;
+        height: 300px;
+        color: gray;
+        border-radius: 10px 10px 0px 0px;
+        margin: 7.5% 0% 0% 7.5%;
+    }
+
+    #bjeli h2 {
+        color: #38a79d;
+        margin: 10% 0% 0% 10%;
+        background-color: #ffffff;
+        padding: 8% 0% 0% 0%;
+    }
+
+    #bjeli h4 {
+        color: #cad885;
+        margin: 5% 0% 0% 10%;
+        background-color: #ffffff;
+    }
+
+    #bjeli p {
+        background-color: #ffffff;
+        line-height: 1.8;
+        font-size: 15px;
+        margin: 5% 5% 0% 10%;
+    }
+
+    #prviPlavi {
+        background-color: #2bb3b1;
+        width: 85%;
+        margin: 0% 0% 0% 7.5%;
+        color: white;
+        height: 250px;
+        float: left;
+    }
+
+    #prviPlavi p {
+        background-color: #2bb3b1;
+        display: inline-block;
+    }
+
+    #zadn {
+        font-size: 17px;
+        margin: 0% 0% 10% 10%;
+    }
+
+    #cena {
+        font-size: 29px;
+        font-weight: bold;
+        margin: 4% 3% 0% 10%;
+    }
+
+    #sivo {
+        color: #c6c4c4;
+    }
+
+    #btn {
+        background-color: #bee032;
+        text-decoration: none;
+        color: white;
+        padding: 15px 95px 15px 95px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 8px #888888;
+        margin: 10%;
+    }
+
+    #prviPlavi h3 {
+        background-color: #2bb3b1;
+        margin: 10% 0% 0% 10%;
+    }
+
+    #drugiPlavi {
+        float: left;
+        width: 85%;
+        margin: 0% 0% 0% 7.5%;
+        background-color: #4abebd;
+        color: white;
+        border-radius: 0px 0px 2px 2px;
+        height: 250px;
+    }
+
+    #drugiPlavi h3 {
+        background-color: #4abebd;
+        margin: 5% 0% 0% 8%;
+    }
+
+    #drugiPlavi p {
+        background-color: #4abebd;
+        margin: 5% 0% 0% 8%;
+        color: #c6c4c4;
+    }
+
+    .attribution {
+        display: none;
+    }
+
+    @media screen and (min-width: 780px) {
+        #bjeli {
+            width: 75%;
+            margin: 10% 0% 0% 12.5%;
+            display: block;
+            height: 260px;
+        }
+        #bjeli h2 {
+            color: #38a79d;
+            margin: 0% 0% 0% 7%;
+            background-color: #ffffff;
+            padding: 5% 0% 0% 0%;
+        }
+        #bjeli h4 {
+            color: #cad885;
+            margin: 2% 0% 0% 7%;
+            font-size: 19px;
+            background-color: #ffffff;
+        }
+        #bjeli p {
+            background-color: #ffffff;
+            line-height: 1.8;
+            font-size: 19px;
+            margin: 2% 0% 0% 7%;
+        }
+        #prviPlavi {
+            display: inline-block;
+            width: 37.5%;
+            float: left;
+            margin: 0% 0% 0% 12.5%;
+            height: 300px;
+        }
+        #drugiPlavi {
+            display: inline-block;
+            width: 37.5%;
+            float: left;
+            margin: 0% 0% 10% 0%;
+            height: 300px;
+            font-size: 19px;
+        }
+        #drugiPlavi h3 {
+            background-color: #4abebd;
+            margin: 10% 0% 0% 10%;
+        }
+        #drugiPlavi p {
+            background-color: #4abebd;
+            margin: 5% 0% 0% 10%;
+            color: #c6c4c4;
+        }
+        #prviPlavi h3 {
+            background-color: #2bb3b1;
+            margin: 10% 0% 0% 10%;
+            font-size: 20px;
+        }
+        #prviPlavi p {
+            background-color: #2bb3b1;
+            display: inline-block;
+        }
+        #zadn {
+            font-size: 19px;
+            margin: 0% 0% 7% 10%;
+        }
+        #cena {
+            font-size: 39px;
+            font-weight: bold;
+            margin: 4% 3% 0% 10%;
+        }
+        #sivo {
+            font-size: 21px;
+            color: #c6c4c4;
+        }
+    }
